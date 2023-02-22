@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.app-background{
+    background-color: brown;
+   
+    
+    width: 800px;
+    height: 600px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-item-box{
+    display:inline-block;
+    background-color: burlywood;
+    width:300px;
+    height: 40px;
+    border:10px  cadetblue;
+    padding:10px;
+    border-radius: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.add-item-input{
+    background-color: burlywood;
+    width:250px;
+    height: 40px;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    border: none;
+  
+    
 }
+.faPlus{
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin:20px;
+padding:10px;
+}
+.item-container{
+    display: flex;
+    justify-content:end;
+    align-items:flex-start;
+    font-size: 1.5em;
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+margin:20px;
+padding:10px;
+}
+.item-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.item-container{
+   display: flex; 
+   border-bottom: 2px solid beige;
+}
+.item-name{
+    display:flex;
+    margin:10px;
+text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.completed{
+    font-size: 1.4rem;
+    color: bisque;
+    background-color:indianred;
+    border-radius: 6px;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   background-color: blanchedalmond;
+   color: brown;
+   width: 70px;
+   height: 30px;
+   border-radius: 20px;
+   
+}
+.total{
+    display: block;
+    background-color:brown;
+  
+    color: beige;
+    font-size: 1.4rem;
+
 }
